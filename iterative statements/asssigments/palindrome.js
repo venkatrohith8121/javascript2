@@ -8,6 +8,10 @@ function reverse(num) {
         reversenum=reversenum*10+(num%10)
         num=Math.floor(num/10)        
     }
-    return reversenum;
+    if (i==reversenum) {
+        console.log(`${i} is a palindronme`)
+    }else{
+        console.log(`${i} is not a palindronme`)
+    }
 }
-console.log(reverse(48269))
+reverse(123521)
