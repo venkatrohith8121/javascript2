@@ -1,7 +1,7 @@
 function reverse(num) {
     i=num
     if (num>=0 && num<=9) {
-        return num;
+        return `${num} is a palindrome`;
     }
     reversenum=0
     while (num!=0) {
@@ -14,4 +14,4 @@ function reverse(num) {
         console.log(`${i} is not a palindronme`)
     }
 }
-reverse(123521)
+console.log(reverse(5))
