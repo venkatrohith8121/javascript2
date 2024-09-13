@@ -13,6 +13,6 @@ function display4(){
 function changecolor1(){
     document.getElementById('5').style.backgroundColor="red"
 }
-function changecolor2(){
-    document.getElementById('6').style.backgroundColor="red"
+function changecase1(){
+    document.getElementById('6').value=name.toUpperCase()
 }
