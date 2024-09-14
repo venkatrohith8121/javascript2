@@ -14,5 +14,5 @@ function changecolor1(){
     document.getElementById('5').style.backgroundColor="red"
 }
 function changecase1(){
-    document.getElementById('6').value=name.toUpperCase()
+   document.getElementById('6').value=document.getElementById('6').value.toUpperCase()
 }
