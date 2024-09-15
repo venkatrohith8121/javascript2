@@ -998,7 +998,19 @@ let users = [{ "ID": 1, "NAME": "Amelina", "EMAIL": "amaric0@latimes.com", "GEND
 { "ID": 998, "NAME": "Archaimbaud", "EMAIL": "apinwellrp@google.com.hk", "GENDER": "Male" },
 { "ID": 999, "NAME": "Queenie", "EMAIL": "qbikkerrq@bizjournals.com", "GENDER": "Female" },
 { "ID": 1000, "NAME": "Bobbette", "EMAIL": "bbrodwayrr@noaa.gov", "GENDER": "Female" }]
-function displaydata() {
+// function displaydata() {
+//     rows = ""
+//     for (user of users) {
+//         rows = rows + `<tr>
+//                           <td>${user.ID}</td>
+//                           <td>${user.NAME}</td>
+//                           <td>${user.EMAIL}</td>
+//                           <td>${user.GENDER}</td>
+//                       </tr>`
+//     }
+//     document.getElementById('table_data').innerHTML = rows
+// }
+let displaydata=() => {
     rows = ""
     for (user of users) {
         rows = rows + `<tr>
@@ -1009,4 +1021,5 @@ function displaydata() {
                       </tr>`
     }
     document.getElementById('table_data').innerHTML = rows
+
 }

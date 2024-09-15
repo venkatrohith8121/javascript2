@@ -6,3 +6,5 @@ console.log(r1)
 // advantages
 // 1. shorter code -improves readabiity
 // 2. implicet return 
+// 3. this key word - return empty object
+// 4. function hoisting/over ridding can be possible we can over write at diff steps
