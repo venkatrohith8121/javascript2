@@ -19,11 +19,15 @@
                 <form action="">
                     <div class="form-group">
                         <label for=""> upload image:</label>
-                        <input type="file" class="form-control">
+                        <input type="file" class="form-control" id="img_file">
                     </div>
                     <input type="submit" value="upload" class="btn btn-warning" onclick="img2str()">
                 </form>
             </div>
+        </div>
+        <div class="row">
+            <textarea name="" id="str_tag" rows="10" cols="40" onclick="str2img()"></textarea>
+            <img src="" alt="" id="img_tag">
         </div>
     </div>
 </body>
